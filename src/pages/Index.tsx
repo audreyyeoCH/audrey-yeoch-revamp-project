@@ -1,12 +1,12 @@
 
 import TableOfContents from "../components/TableOfContents";
 
-// Use the new uploaded photo
-const AVATAR = "/lovable-uploads/4805bbcb-a430-4f26-9647-224614886d4b.png";
+// Use the new uploaded photo (user provided)
+const AVATAR = "/lovable-uploads/5493dfe6-c274-4e4f-9c4d-cecdc1debf85.png";
 
-// "Lover"-inspired pastel linear gradient (pink to soft blue to purple).
+// Updated pastel gradient background inspired by Taylor Swift's Lover album cover (soft warm pinks, lilacs, and blues)
 const BG_GRADIENT =
-  "bg-[linear-gradient(135deg,_#ffdee2_0%,_#e5deff_60%,_#9b87f5_100%)]";
+  "bg-[linear-gradient(135deg,_#ff9a9e_0%,_#fad0c4_50%,_#fad0c4_70%,_#fbc2eb_85%,_#a18cd1_100%)]";
 
 const Index = () => {
   return (
@@ -30,7 +30,7 @@ const Index = () => {
             style={{
               boxShadow: "0 8px 32px 0 rgba(0,0,0,0.11)",
               background: "#fff",
-              objectPosition: "center top" // shift the image to show your entire head
+              objectPosition: "center 20%" // shift the image a bit lower to see top of head fully
             }}
           />
         </div>
@@ -140,3 +140,4 @@ const Index = () => {
 };
 
 export default Index;
+
