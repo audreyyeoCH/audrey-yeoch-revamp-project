@@ -289,33 +289,33 @@ const Index = () => {
             Projects
           </h2>
           <ul className="space-y-4 text-lg">
-            {/* phase1b project with logo, link and role */}
-            <li className="flex items-center gap-2">
+            {/* phase1b project with short description and link only on the project name */}
+            <li className="flex flex-wrap items-center gap-2">
               <img
                 src={PHASE1B_LOGO}
                 alt="phase1b logo"
                 className="w-8 h-8 rounded-lg border border-gray-300 shadow"
-                style={{ marginRight: '0.5rem' }}
+                style={{ marginRight: "0.5rem" }}
               />
-              <a
-                href="https://genentech.github.io/phase1b/main/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-700 hover:underline flex items-center gap-1 font-semibold"
-              >
-                Lead developer for phase1b : <span className="font-normal">A Bayesian Approach to early clinical trials</span>
-              </a>
+              <span>
+                Lead developer for R package phase1b :{" "}
+                <a
+                  href="https://genentech.github.io/phase1b/main/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-700 hover:underline font-semibold"
+                >
+                  A Bayesian Approach to early clinical trials
+                </a>
+              </span>
             </li>
           </ul>
         </div>
       </section>
 
-      {/* TALKS */}
+      {/* TALKS (header removed, keep only Upcoming/Recent sections) */}
       <section id="talks" className="max-w-2xl mx-auto mt-6 w-full px-4 mb-28">
         <div className="rounded-3xl glass shadow-2xl p-8 bg-white/90 backdrop-blur-2xl border border-gray-200 animate-fade-in">
-          <h2 className="font-playfair text-3xl font-bold mb-3 text-primary drop-shadow">
-            Talks
-          </h2>
           <div className="space-y-6">
             <div>
               <h3 className="font-bold text-lg mb-1 text-pink-700">Upcoming Talks:</h3>
