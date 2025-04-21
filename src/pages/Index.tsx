@@ -146,14 +146,37 @@ const Index = () => {
             Work Experience
           </h2>
           <ul className="space-y-4 text-lg">
+            {/* New Current Role */}
+            <li>
+              <p className="font-semibold text-gray-900">
+                Finc Research
+              </p>
+              <span className="text-gray-400 text-base">March 2025 – Current</span>
+              <br />
+              <span className="font-medium text-gray-800">
+                Chief Statistician &amp; Entrepreneur
+              </span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Transforming industry questions into Data Science solutions in diverse sectors.
+                </li>
+                <li>
+                  Deploying Statistics and Machine Learning solutions in analyses or software infrastructure such as R packages.
+                </li>
+                <li>
+                  Supporting diverse sectors in technological transformation such as R adoption.
+                </li>
+              </ul>
+            </li>
+            {/* Hoffman La Roche AG - Update End Date */}
             <li>
               <p className="font-semibold text-gray-900">
                 Hoffman La Roche AG
               </p>
-              <span className="text-gray-400 text-base">July 2021 – Present</span>
+              <span className="text-gray-400 text-base">July 2021 – Feb 2025</span>
               <br />
               <span className="font-medium text-gray-800">Biostatistician and Statistical Software Engineer</span>
-              <span className="text-gray-400 text-base"> (May 2022 – Current)</span>
+              <span className="text-gray-400 text-base"> (May 2022 – Feb 2025)</span>
               <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
                 <li>
                   Project lead/study statistician for design of experiments and analysis in pharmacodynamic and pharmacokinetic studies (early and late development).
