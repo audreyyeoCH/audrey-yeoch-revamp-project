@@ -1,7 +1,11 @@
+
 import TableOfContents from "../components/TableOfContents";
 
 // Use the new uploaded photo (user provided)
 const AVATAR = "/lovable-uploads/5493dfe6-c274-4e4f-9c4d-cecdc1debf85.png";
+
+// phase1b logo
+const PHASE1B_LOGO = "/lovable-uploads/94a80ecc-3dcd-4c2f-96e1-70416101296c.png";
 
 // Updated pastel gradient background inspired by Taylor Swift's Lover album cover (soft warm pinks, lilacs, and blues)
 const BG_GRADIENT =
@@ -20,12 +24,12 @@ const Index = () => {
         <div className="relative">
           {/* Pastel gradient border ring for avatar */}
           <div className="absolute inset-0 z-0 flex items-center justify-center">
-            <span className="block w-40 h-40 rounded-full bg-gradient-to-tr from-pink-200 via-purple-200 to-blue-200 opacity-80 blur-lg" />
+            <span className="block w-56 h-56 rounded-full bg-gradient-to-tr from-pink-200 via-purple-200 to-blue-200 opacity-80 blur-lg" />
           </div>
           <img
             src={AVATAR}
             alt="Audrey Yeo"
-            className="relative z-10 rounded-full border-4 border-white shadow-xl w-40 h-40 object-cover aspect-square animate-fade-in"
+            className="relative z-10 rounded-full border-4 border-white shadow-xl w-56 h-56 object-cover aspect-square animate-fade-in"
             style={{
               boxShadow: "0 8px 32px 0 rgba(0,0,0,0.11)",
               background: "#fff",
@@ -40,7 +44,6 @@ const Index = () => {
           <span className="bg-gradient-to-r from-pink-400 via-fuchsia-500 to-blue-400 bg-clip-text text-transparent font-bold">
             Research Statistician and Software Engineer
           </span>
-          {/* Removed old p, since your headline covers it */}
         </div>
       </section>
 
@@ -50,7 +53,8 @@ const Index = () => {
           <h2 className="font-playfair text-2xl font-bold mb-2 text-primary text-center">
             Tech Stack
           </h2>
-          <div className="flex flex-col gap-3 items-center">
+          {/* Centered Tools and Concepts */}
+          <div className="flex flex-col gap-3 items-center justify-center text-center">
             <div>
               <div className="font-semibold text-gray-800 mb-1 text-center">Tools</div>
               <div className="flex flex-wrap gap-2 justify-center">
@@ -286,6 +290,23 @@ const Index = () => {
             Projects
           </h2>
           <ul className="space-y-4 text-lg">
+            {/* phase1b project with logo, link and role */}
+            <li className="flex items-center gap-2">
+              <img
+                src={PHASE1B_LOGO}
+                alt="phase1b logo"
+                className="w-8 h-8 rounded-lg border border-gray-300 shadow"
+                style={{ marginRight: '0.5rem' }}
+              />
+              <a
+                href="https://genentech.github.io/phase1b/main/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700 hover:underline flex items-center gap-1 font-semibold"
+              >
+                Lead developer for phase1b : <span className="font-normal">A Bayesian Approach to early clinical trials</span>
+              </a>
+            </li>
             <li>
               <span className="font-semibold text-gray-900">
                 Personal Portfolio Website
@@ -311,3 +332,4 @@ const Index = () => {
 };
 
 export default Index;
+
