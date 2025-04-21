@@ -47,13 +47,13 @@ const Index = () => {
       {/* TECH STACK */}
       <section className="flex flex-col items-center mt-5 mb-8 animate-fade-in" id="tech-stack">
         <div className="rounded-3xl glass shadow-xl p-6 bg-white/80 border border-gray-200">
-          <h2 className="font-playfair text-2xl font-bold mb-2 text-primary">
+          <h2 className="font-playfair text-2xl font-bold mb-2 text-primary text-center">
             Tech Stack
           </h2>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 items-center">
             <div>
-              <div className="font-semibold text-gray-800 mb-1">Tools</div>
-              <div className="flex flex-wrap gap-2">
+              <div className="font-semibold text-gray-800 mb-1 text-center">Tools</div>
+              <div className="flex flex-wrap gap-2 justify-center">
                 <span className="inline-block bg-gradient-to-r from-pink-200 via-purple-200 to-blue-100 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-pink-100">
                   R
                 </span>
@@ -69,8 +69,8 @@ const Index = () => {
               </div>
             </div>
             <div>
-              <div className="font-semibold text-gray-800 mb-1">Concepts</div>
-              <div className="flex flex-wrap gap-2">
+              <div className="font-semibold text-gray-800 mb-1 text-center">Concepts</div>
+              <div className="flex flex-wrap gap-2 justify-center">
                 <span className="inline-block bg-gradient-to-r from-blue-100 via-purple-100 to-pink-200 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-blue-100">
                   Probability Theory
                 </span>
