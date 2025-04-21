@@ -1,4 +1,3 @@
-
 import TableOfContents from "../components/TableOfContents";
 
 // Use the new uploaded photo (user provided)
@@ -24,12 +23,12 @@ const Index = () => {
         <div className="relative">
           {/* Pastel gradient border ring for avatar */}
           <div className="absolute inset-0 z-0 flex items-center justify-center">
-            <span className="block w-56 h-56 rounded-full bg-gradient-to-tr from-pink-200 via-purple-200 to-blue-200 opacity-80 blur-lg" />
+            <span className="block w-64 h-64 rounded-full bg-gradient-to-tr from-pink-200 via-purple-200 to-blue-200 opacity-80 blur-lg" />
           </div>
           <img
             src={AVATAR}
             alt="Audrey Yeo"
-            className="relative z-10 rounded-full border-4 border-white shadow-xl w-56 h-56 object-cover aspect-square animate-fade-in"
+            className="relative z-10 rounded-full border-4 border-white shadow-xl w-64 h-64 object-cover aspect-square animate-fade-in"
             style={{
               boxShadow: "0 8px 32px 0 rgba(0,0,0,0.11)",
               background: "#fff",
@@ -332,4 +331,3 @@ const Index = () => {
 };
 
 export default Index;
-
