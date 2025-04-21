@@ -53,9 +53,37 @@ const Index = () => {
           </h2>
           <ul className="list-disc list-inside text-gray-800 space-y-2 text-lg">
             <li>
-              <strong>National University of Singapore</strong><br />
-              Bachelor of Science (B.Sc.), Statistics, Minor in Computer Science<br />
-              <span className="text-gray-400 text-base">2019 – 2023</span>
+              <strong>University of Zürich (UZH)</strong>
+              <br />
+              Master of Science in Biostatistics
+              <br />
+              <span className="text-gray-500 text-base">
+                Technologies: R, Python, MATLAB
+              </span>
+            </li>
+            <li>
+              <strong>University of Geneva</strong>
+              <br />
+              Coursework in Economics and Statistics
+              <br />
+              <span className="text-gray-500 text-base">
+                Technologies: MATLAB, R
+              </span>
+            </li>
+            <li>
+              <strong>University of Sydney</strong>
+              <br />
+              Graduate Certificate in Clinical Trials Practice
+            </li>
+            <li>
+              <strong>University of Melbourne</strong> <span className="text-gray-600">(Coursework only)</span>
+              <br />
+              Economic Evaluation I from Master of Public Health <span className="text-gray-600">(First Class Honours)</span>
+            </li>
+            <li>
+              <strong>University of Sydney</strong>
+              <br />
+              Bachelor of Science &amp; Master of Nursing
             </li>
           </ul>
         </div>
@@ -70,39 +98,109 @@ const Index = () => {
           <ul className="space-y-4 text-lg">
             <li>
               <p className="font-semibold text-gray-900">
-                Research Statistician, Singapore Institute for Clinical Sciences (A*STAR)
+                Hoffman La Roche AG
               </p>
-              <span className="text-gray-400 text-base">Jul 2023 – Present</span>
-              <p className="text-gray-600 text-base">
-                Designing and analyzing research studies on maternal and child health, data processing and reporting, and supporting the development of statistical tools.
-              </p>
+              <span className="text-gray-400 text-base">July 2021 – Present</span>
+              <br />
+              <span className="font-medium text-gray-800">Biostatistician and Statistical Software Engineer</span>
+              <span className="text-gray-400 text-base"> (May 2022 – Current)</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Project lead/study statistician for design of experiments and analysis in pharmacodynamic and pharmacokinetic studies (early and late development).
+                </li>
+                <li>
+                  Lead for statistical analysis plans, monitoring charters, dose escalation, efficacy, and futility analyses (Bayesian and Frequentist frameworks).
+                </li>
+                <li>
+                  Translate business questions into statistical frameworks and drive strategic data-driven decisions across multi-disciplinary teams.
+                </li>
+                <li>
+                  Statistical software engineering in R (collaborating with methodologists and stakeholders), and co-organiser/instructor for Julia programming courses (Q1-2, 2024).
+                </li>
+                <li>
+                  Real-World Data analytics and engineering (Flatiron, CPRD, Picnic Health, oncology/haematology, SQL, Python, Redshift).
+                </li>
+                <li>
+                  Tech: R, Julia, Git, Bash, Python, SQL, Redshift.
+                </li>
+              </ul>
             </li>
             <li>
               <p className="font-semibold text-gray-900">
-                Software Engineering Intern, Shopee
+                Royal Children’s Hospital
               </p>
-              <span className="text-gray-400 text-base">May 2022 – Aug 2022</span>
-              <p className="text-gray-600 text-base">
-                Built scalable backend services and web applications for e-commerce logistics.
-              </p>
+              <span className="text-gray-400 text-base">April 2021 – June 2021</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Registered Nurse, COVID frontline essential worker — Testing &amp; critical care of children and adolescents (including families).
+                </li>
+              </ul>
             </li>
             <li>
               <p className="font-semibold text-gray-900">
-                Data Science Intern, Standard Chartered Bank
+                University of Zurich (UZH)
               </p>
-              <span className="text-gray-400 text-base">Jan 2022 – May 2022</span>
-              <p className="text-gray-600 text-base">
-                Developed analytics dashboards and predictive models for business insights.
-              </p>
+              <span className="text-gray-400 text-base">Nov 2020 – March 2021</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Doctoral Researcher in Computational Medicine (R, C++, SQL).
+                </li>
+              </ul>
             </li>
             <li>
               <p className="font-semibold text-gray-900">
-                Frontend Developer Intern, XYZ Studio
+                Centre for Reproducible Science, UZH
               </p>
-              <span className="text-gray-400 text-base">May 2021 – Aug 2021</span>
-              <p className="text-gray-600 text-base">
-                Designed and implemented interactive user interfaces for digital campaigns.
+              <span className="text-gray-400 text-base">July 2019 – January 2021</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Research Assistant &amp; Applied Statistician.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p className="font-semibold text-gray-900">
+                Institute of Mathematics, UZH
               </p>
+              <span className="text-gray-400 text-base">Feb 2019 – May 2019</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Statistics &amp; Probability Teaching Assistant (Spring 2019), with Assoc. Prof Reinhard Furrer.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p className="font-semibold text-gray-900">
+                Dept. of Economics, UZH
+              </p>
+              <span className="text-gray-400 text-base">Jan 2019</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Microeconomics &amp; Statistics Research Assistant (Assoc. Prof Pietro Biroli) — Data analysis and visualisation in R on mother &amp; child outcomes after treatment for maternal depression in Pakistan.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p className="font-semibold text-gray-900">
+                Swiss Tropical and Public Health Institute
+              </p>
+              <span className="text-gray-400 text-base">Sept 2017 – Dec 2017</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Health Economics Trainee (Health Systems Support): Exploratory data analysis of claims data for marketing and business planning (Tanzania).
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p className="font-semibold text-gray-900">
+                World Health Organization (WHO)
+              </p>
+              <span className="text-gray-400 text-base">May 2016 – Sept 2016</span>
+              <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
+                <li>
+                  Intern in Economic Evaluation and Analysis – Sustainable Development Goals.
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
