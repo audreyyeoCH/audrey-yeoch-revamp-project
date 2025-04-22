@@ -318,7 +318,7 @@ const Index = () => {
         <div className="rounded-3xl glass shadow-2xl p-8 bg-white/90 backdrop-blur-2xl border border-gray-200 animate-fade-in">
           <div className="space-y-6">
             <div>
-              <h3 className="font-bold text-lg mb-1 text-pink-700">Upcoming Talks:</h3>
+              <h3 className="font-bold text-lg mb-1 text-pink-700">Upcoming :</h3>
               <ul className="list-disc ml-6 space-y-2">
                 <li>
                   <a
@@ -327,13 +327,13 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"
                   >
-                    Pre-Conference Course with Daniel Sabanés Bové &amp; Alessandro Gasparini - International Society of Clinical Biostatistics, Basel, CH - 2025
+                    Pre-Conference Course with Daniel Sabanés Bové & Alessandro Gasparini - International Society of Clinical Biostatistics, Basel, CH - 2025
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-lg mb-1 text-purple-700">Recent Talks:</h3>
+              <h3 className="font-bold text-lg mb-1 text-purple-700">Recent :</h3>
               <ul className="list-disc ml-6 space-y-2">
                 <li>
                   <a
