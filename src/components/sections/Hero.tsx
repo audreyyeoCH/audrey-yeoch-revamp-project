@@ -26,7 +26,7 @@ export const Hero = () => {
       </h1>
       <div className="text-lg sm:text-xl text-gray-700 font-medium max-w-2xl text-center animate-fade-in">
         <span className="bg-gradient-to-r from-pink-400 via-fuchsia-500 to-blue-400 bg-clip-text text-transparent font-bold">
-          Research Statistician and Software Engineer
+          Research Statistician and Software Engineer, BSc, MSc, RN, M Nursing
         </span>
       </div>
     </section>
