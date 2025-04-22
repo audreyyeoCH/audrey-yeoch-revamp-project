@@ -1,10 +1,12 @@
+
+import React from 'react';
 import TableOfContents from "../components/TableOfContents";
-
-// Use the new uploaded photo (user provided)
-const AVATAR = "/lovable-uploads/5493dfe6-c274-4e4f-9c4d-cecdc1debf85.png";
-
-// phase1b logo
-const PHASE1B_LOGO = "/lovable-uploads/94a80ecc-3dcd-4c2f-96e1-70416101296c.png";
+import { Hero } from "../components/sections/Hero";
+import { TechStack } from "../components/sections/TechStack";
+import { Education } from "../components/sections/Education";
+import { WorkExperience } from "../components/sections/WorkExperience";
+import { Projects } from "../components/sections/Projects";
+import { Talks } from "../components/sections/Talks";
 
 // Updated pastel gradient background inspired by Taylor Swift's Lover album cover (soft warm pinks, lilacs, and blues)
 const BG_GRADIENT =
