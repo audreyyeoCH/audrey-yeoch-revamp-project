@@ -41,7 +41,7 @@ const Index = () => {
         </h1>
         <div className="text-lg sm:text-xl text-gray-700 font-medium max-w-2xl text-center animate-fade-in">
           <span className="bg-gradient-to-r from-pink-400 via-fuchsia-500 to-blue-400 bg-clip-text text-transparent font-bold">
-            Research Statistician and Software Engineer
+            Research Statistician and Software Engineer, BSc, MSc, RN, M Nursing
           </span>
         </div>
       </section>
@@ -55,10 +55,13 @@ const Index = () => {
           {/* Centered Tools and Concepts */}
           <div className="flex flex-col gap-3 items-center justify-center text-center">
             <div>
-              <div className="font-semibold text-gray-800 mb-1 text-center">Tools</div>
+              <div className="font-semibold text-gray-800 mb-1 text-center">Languages</div>
               <div className="flex flex-wrap gap-2 justify-center">
                 <span className="inline-block bg-gradient-to-r from-pink-200 via-purple-200 to-blue-100 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-pink-100">
                   R
+                </span>
+                <span className="inline-block bg-gradient-to-r from-pink-200 via-purple-200 to-blue-100 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-pink-100">
+                  SQL
                 </span>
                 <span className="inline-block bg-gradient-to-r from-pink-200 via-purple-200 to-blue-100 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-purple-100">
                   Julia
@@ -72,7 +75,7 @@ const Index = () => {
               </div>
             </div>
             <div>
-              <div className="font-semibold text-gray-800 mb-1 text-center">Concepts</div>
+              <div className="font-semibold text-gray-800 mb-1 text-center"> Expertise </div>
               <div className="flex flex-wrap gap-2 justify-center">
                 <span className="inline-block bg-gradient-to-r from-blue-100 via-purple-100 to-pink-200 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-blue-100">
                   Probability Theory
@@ -110,18 +113,12 @@ const Index = () => {
               <br />
               Master of Science in Biostatistics
               <br />
-              <span className="text-gray-500 text-base">
-                Technologies: R, Python, MATLAB
-              </span>
             </li>
             <li>
               <strong>University of Geneva</strong>
               <br />
               Coursework in Economics and Statistics
               <br />
-              <span className="text-gray-500 text-base">
-                Technologies: MATLAB, R
-              </span>
             </li>
             <li>
               <strong>University of Sydney</strong>
@@ -152,7 +149,14 @@ const Index = () => {
             {/* New Current Role */}
             <li>
               <p className="font-semibold text-gray-900">
+              <a
+                    href="https:www.finc-research.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-700 hover:underline"
+                  >
                 Finc Research
+                </a>
               </p>
               <span className="text-gray-400 text-base">March 2025 – Current</span>
               <br />
@@ -179,7 +183,7 @@ const Index = () => {
               <span className="text-gray-400 text-base">July 2021 – Feb 2025</span>
               <br />
               <span className="font-medium text-gray-800">Biostatistician and Statistical Software Engineer</span>
-              <span className="text-gray-400 text-base"> (May 2022 – Feb 2025)</span>
+              <span className="text-gray-400 text-base">  </span>
               <ul className="list-disc ml-5 mt-1 text-base text-gray-700 space-y-1">
                 <li>
                   Project lead/study statistician for design of experiments and analysis in pharmacodynamic and pharmacokinetic studies (early and late development).
@@ -195,9 +199,6 @@ const Index = () => {
                 </li>
                 <li>
                   Real-World Data analytics and engineering (Flatiron, CPRD, Picnic Health, oncology/haematology, SQL, Python, Redshift).
-                </li>
-                <li>
-                  Tech: R, Julia, Git, Bash, Python, SQL, Redshift.
                 </li>
               </ul>
             </li>
@@ -318,7 +319,7 @@ const Index = () => {
         <div className="rounded-3xl glass shadow-2xl p-8 bg-white/90 backdrop-blur-2xl border border-gray-200 animate-fade-in">
           <div className="space-y-6">
             <div>
-              <h3 className="font-bold text-lg mb-1 text-pink-700">Upcoming :</h3>
+              <h3 className="font-bold text-lg mb-1 text-pink-700">Upcoming Talks :</h3>
               <ul className="list-disc ml-6 space-y-2">
                 <li>
                   <a
@@ -333,7 +334,7 @@ const Index = () => {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-lg mb-1 text-purple-700">Recent :</h3>
+              <h3 className="font-bold text-lg mb-1 text-purple-700">Recent Talks :</h3>
               <ul className="list-disc ml-6 space-y-2">
                 <li>
                   <a
