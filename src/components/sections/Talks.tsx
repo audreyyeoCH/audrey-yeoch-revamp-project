@@ -11,6 +11,12 @@ export const Talks = () => {
           <div>
             <h3 className="font-bold text-lg mb-1 text-pink-700">Upcoming :</h3>
             <ul className="list-disc ml-6 space-y-2">
+              <li>coming soon</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-bold text-lg mb-1 text-purple-700">Recent :</h3>
+            <ul className="list-disc ml-6 space-y-2">
               <li>
                 <a
                   href="https://iscb2025.info/courses.html"
@@ -21,11 +27,6 @@ export const Talks = () => {
                   Pre-Conference Course with Daniel Sabanés Bové & Alessandro Gasparini - International Society of Clinical Biostatistics, Basel, CH - 2025
                 </a>
               </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="font-bold text-lg mb-1 text-purple-700">Recent :</h3>
-            <ul className="list-disc ml-6 space-y-2">
               <li>
                 <a
                   href="https://www.finc-research.com/2025_DAGStat_Practical-Bayesian-Statistics.html"
