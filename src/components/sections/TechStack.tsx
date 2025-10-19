@@ -15,6 +15,9 @@ export const TechStack = () => {
               <span className="inline-block bg-gradient-to-r from-pink-200 via-purple-200 to-blue-100 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-pink-100">
                 R
               </span>
+              <span className="inline-block bg-gradient-to-r from-pink-200 via-purple-200 to-blue-100 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-pink-100">
+                Python
+              </span>
               <span className="inline-block bg-gradient-to-r from-pink-200 via-purple-200 to-blue-100 text-gray-900 px-3 py-1 rounded-full text-xs font-semibold shadow-sm border border-purple-100">
                 Julia
               </span>
