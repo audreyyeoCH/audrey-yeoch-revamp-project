@@ -17,7 +17,7 @@ export const Hero = () => {
           style={{
             boxShadow: "0 8px 32px 0 rgba(0,0,0,0.11)",
             background: "#fff",
-            objectPosition: "center 20%"
+            objectPosition: "center 30%"
           }}
         />
       </div>
