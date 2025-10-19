@@ -8,7 +8,7 @@ export const Projects = () => {
     <section id="projects" className="max-w-2xl mx-auto mt-12 w-full px-4 mb-8">
       <div className="rounded-3xl glass shadow-2xl p-8 bg-white/90 backdrop-blur-2xl border border-gray-200 animate-fade-in">
         <h2 className="font-playfair text-3xl font-bold mb-2 text-primary drop-shadow">
-          Projects
+          Current Statistical software projects
         </h2>
         <ul className="space-y-4 text-lg">
           <li className="flex flex-wrap items-center gap-2">
